@@ -1,4 +1,4 @@
-package io.github.kotlin.fibonacci
+package io.yumemi.something
 
 import kotlin.test.Test
 import kotlin.test.assertEquals
