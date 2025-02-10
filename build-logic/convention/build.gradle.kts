@@ -30,3 +30,12 @@ tasks {
         failOnWarning = true
     }
 }
+
+gradlePlugin {
+    plugins {
+        register("publish") {
+            id = "io.yumemi.something.publish"
+            implementationClass = "PublishConventionPlugin"
+        }
+    }
+}
