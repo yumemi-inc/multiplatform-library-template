@@ -1,4 +1,4 @@
-package io.github.kotlin.fibonacci
+package io.yumemi.something
 
 fun generateFibi() = sequence {
     var a = firstElement
